@@ -1,0 +1,167 @@
+@import url('https://hexbss.xyz/visitorregister/colors.css');
+
+.box {
+  border-radius: 10px;
+}
+
+.container-fuild {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 20px;
+  padding-left: 20px; */
+}
+
+.icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: var(--bgcolor);
+  width: 50px;
+  height: 50%;
+}
+
+.three-group {
+  width: 180px;
+  height: 150px;
+}
+
+.three-group .description {
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  width: calc(100% - 50px);
+  flex-direction: column;
+  color: var(--bgcolor);
+}
+
+.three-group .description span:first-child {
+
+  font-size: 18px;
+}
+
+.three-group .description span:nth-child(2) {
+  font-size: 25px;
+  font-weight: 500;
+
+}
+
+.three-group .extra {
+  height: 50%;
+  width: 100%;
+  padding-left: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: var(--bgcolor);
+}
+
+.three-group .extra span:first-child {
+  font-size: 18px;
+}
+
+.three-group .extra span:nth-child(2) {
+  font-size: 20px;
+}
+
+.three-group .firstbox {
+  display: flex;
+  align-items: center;
+  height: 50%;
+}
+
+.four-group {
+  width: 180px;
+  height: 150px;
+}
+
+.four-group .firstbox {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+
+.four-group .secondbox {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+
+.four-group .description {
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  width: calc(100% - 50px);
+  flex-direction: column;
+  color: var(--bgcolor);
+}
+
+.four-group .description span:first-child {
+
+  font-size: 18px;
+}
+
+.four-group .description span:nth-child(2) {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.secondbox .one {
+  height: 100%;
+  width: 50%;
+  padding-left: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: var(--bgcolor);
+}
+
+.secondbox .one span:first-child {
+  font-size: 15px;
+}
+
+.secondbox .one span:nth-child(2) {
+  font-size: 18px;
+}
+
+.secondbox .two {
+  height: 100%;
+  width: 50%;
+  padding-left: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: var(--bgcolor);
+}
+
+.secondbox .two span:first-child {
+  font-size: 15px;
+}
+
+.secondbox .two span:nth-child(2) {
+  font-size: 18px;
+}
+
+.qrcode{
+  float: right;
+}
+
+@media screen and (max-width: 440px) {
+  .qrcode{
+    float: right;
+    margin-right: 70px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .qrcode{
+    float: right;
+    margin-right: 120px;
+  }
+}

@@ -1,0 +1,122 @@
+.notificationsModal {
+    width: 400px;
+    height: 80vh;
+    z-index: 1;
+    background-color: aliceblue;
+    position: fixed;
+    top: 10vh;
+    right: 10px;
+    overflow: auto;
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+/* .notificationsModal::-webkit-scrollbar {
+    width: 5px;
+}
+
+.notificationsModal::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #48d1cc;
+}
+
+.notificationsModal::-webkit-scrollbar-thumb {
+    background: #48d1cc;
+} */
+
+.notificationsModal .title {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    z-index: 1;
+}
+
+.notificationsModal .title::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid aliceblue;
+    position: fixed;
+    top: 46px;
+    right: 16px;
+}
+
+.notificationsModal .tile {
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.notificationsModal .tile:hover {
+    background-color: rgba(110, 110, 110, 0.1);
+}
+
+.notificationsModal .tile .dotIcon {
+    width: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notificationsModal .tile .dotIcon span {
+    background-color: #48d1cc;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    /* visibility: hidden; */
+}
+
+.notificationsModal .tile .userImage {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notificationsModal .tile .userImage img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.notificationsModal .tile .Description {
+    width: calc(100% - 90px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.notificationsModal .tile .header {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.notificationsModal .tile .desc {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.notificationsModal .tile .date {
+    font-size: 14px;
+}

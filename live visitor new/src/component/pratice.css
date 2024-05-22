@@ -1,0 +1,81 @@
+@import url('https://slci-hrsolutions.com/colors.css');
+
+
+.MuiFormHelperText-root.Mui-error{
+  color:"gray"!important
+  }
+  .modal-footer{
+    justify-content: center!important;
+  
+  }
+  
+  
+  #EmployeeList{
+    height: 85vh;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  
+  ::-webkit-scrollbar{
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px var(--Primary);
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background:var(--Primary);
+  }
+  
+  .active{
+    background-color: var(--employeeHover);
+  }
+  
+  
+  
+  .employee__top{
+    cursor: pointer;
+    padding: 7px;
+  }
+  
+  .employee__top .employeeImg img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .employee__top .empolyeeName{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 25px;
+  }
+  .searchBox{
+    padding-bottom: 5px;
+  }
+  .searchBox .form-control{
+    border: none;
+    background-color:var(--employeeHover);
+    height: 100%;
+  }
+  
+  /* #search{
+    position: fixed;
+    width: 27%;
+  } */
+  
+  @media only screen and (max-width: 1140px) {
+    /* #search {
+      width: 34%;
+    } */
+  }
+
+  .employee__top:hover{
+    background-color: var(--employeeHover);
+  
+  }
+  .employeeImg img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }

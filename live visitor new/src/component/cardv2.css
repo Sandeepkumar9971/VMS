@@ -1,0 +1,60 @@
+.box {
+    border-radius: 10px;
+  }
+  
+  .container-fuild {
+    /* padding: 20px; */
+    display: inline-flex;
+    justify-content: center;
+    /* margin-right: 20px; */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px;
+    padding-left: 20px; */
+  }
+  
+  .icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 50px;  
+    height: 50%;
+  }
+  
+  
+  .four-group {
+    width: 180px;
+    height: 150px;
+  }
+  
+  .four-group .firstbox {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  
+  .four-group .description {
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    width: calc(100% - 50px);
+    flex-direction: column;
+    color: #fff;
+  }
+  
+  .four-group .description span:first-child {
+  
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .four-group .description span:nth-child(2) {
+    font-size: 40px;
+    font-weight: 500;
+  }

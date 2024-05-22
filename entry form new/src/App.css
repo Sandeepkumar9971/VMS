@@ -1,0 +1,15 @@
+@import url('https://hexbss.xyz/visitorregister/colors.css');
+
+input.form-control{
+  margin-top: 20px;
+  background-color:#e9ecef;;
+}
+
+
+#modalcss .modal-content{
+  background: transparent !important;
+}
+
+#modalcss .modal-header{
+  display: none!important;
+}

@@ -1,0 +1,15 @@
+
+   .btncls{
+    border-radius:9px;
+    margin-top: 5px;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    min-width:100px;
+    font-weight:bold;letter-spacing:1px;color:white;background:red;
+   }
+  .btncls:hover {
+    background-color: white ;
+    color: rgb(236, 18, 11) ;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,35 @@
+/* .form-control:focus{
+    box-shadow: none !important;
+} */
+.form-control{
+    border: none !important;
+}
+.emptyError{
+    color:red !important;
+}
+#worddescriptionInput,#wordremarksInput{
+    float: right;
+}
+
+
+.InlineInput{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.InlineInput .InlineFirstBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.InlineInput .InlineLabel{
+    width: auto;
+    white-space: nowrap;
+    padding-right: 10px;
+    /* max-width:50%; */
+}
+.InlineInput .InlineInuputBox{
+    width: 100%;
+}
+
